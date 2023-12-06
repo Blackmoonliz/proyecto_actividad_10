@@ -1,0 +1,70 @@
+/*solución taller bachend*/
+
+
+/*diseños documento index*/
+.fondo {
+    background-color: rgb(199, 199, 204);
+}
+
+.titulo_princ {
+    font-size: 50px;
+    color: darkgreen;
+    text-align: center;
+}
+#parrafo {
+    color: rgb(3, 3, 87);
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenido_opciones {
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: chocolate;
+    font-size: 25px;
+}
+.indice {
+    text-decoration: none;
+    transition: all 1s;
+}
+.opciones {
+    background-color: rgb(212, 171, 203);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    height: 40px;
+    color: black;
+    padding-top: 10px;
+}
+.autor {
+    color: rgb(67, 182, 119);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*solución punto 1, calculadora*/
+
+.inicio {
+    height: 60px;
+}
+.fondo_p {
+    background-color: rgb(241, 245, 241);
+}
+.titulo_p {
+    color: cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+}
+.contenido_p {
+    background-color: rgb(102, 226, 144);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20px;
+    padding: 50px
+}
+
+/*solución punto 2, Mayor o Menor de Edad*/
+

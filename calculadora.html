@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Llamar a Bootstrap CSS en la version 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body class="fondo_p">
+    <!--solución punto 1-->
+    <a href="index.html">
+        <img class="inicio" src="img/inicio_casa.jpg" alt="casita azul">
+    </a>
+    <br>
+    <br>
+    <div class="main-frame-cal">
+        <form action="" method="POST">
+
+            <h1 class="titulo_p">Calculadora</h1>
+            <br>
+            <!--solicitud primer número-->
+            <div class="contenido_p">
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label">Por favor digite el primer número.</label>
+                    <input type="number" name="n1" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Digite el primer número" required>
+                </div>
+                <br>
+                <!--solicitud segundo número-->
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label">Por favor digite el segundo número.</label>
+                    <input type="number" name="n2" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Digite el segundo número" required>
+                </div>
+                <br>
+                <!--selección de operación deseada-->
+                <div>
+                    <label for="exampleFormControlInput1" class="form-label">Por favor seleccione la operación
+                        deseada.</label>
+                    <select class="form-select" name="tipo" aria-label="Default select example">
+                        <option value="1">Suma</option>
+                        <option value="2">Resta</option>
+                        <option value="3">Multiplicación</option>
+                        <option value="4">División</option>
+                    </select>
+                </div>
+                <br>
+                <!--calcular operación-->
+                <div>
+                    <button type="submit" name="operar" class="btn btn-primary">Operar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>   
+    <br>   
+    <br>
+    <footer class="autor">Elizeth Benavides</footer>
+    <br>
+    <br>
+    
+    
+
+</body>
+
+</html>
